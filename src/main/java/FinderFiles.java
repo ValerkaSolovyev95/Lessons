@@ -24,9 +24,11 @@ public class FinderFiles {
     }
 
     public static void main(String[] args) {
-        readFolder("src");
-        System.out.println("Количество файлов " + countFiles);
-        System.out.println("Количество папок " + countFolders);
+        String path = "src";
+        System.out.println("Путь | " + path);
+        readFolder(path);
+        System.out.println("Количество файлов | " + countFiles);
+        System.out.println("Количество папок | " + countFolders);
 
     }
 }
